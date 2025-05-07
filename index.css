@@ -1,0 +1,31 @@
+.header{
+    height: 100px;
+    width: auto;
+    grid-column: 5/3;
+    background-color: rgb(242, 242, 248);
+    grid-row: 5/3;
+    border: 1px solid black;
+    }
+
+.Footer{
+    height: 100px;
+    width: auto;
+    grid-column: 5/3;
+    background-color: rgb(242, 242, 248);
+    grid-row: 5/3;
+    border: 1px solid black;
+}
+
+.Espacio{
+    height: 300px;
+    width: 100px;
+}
+
+.Espacio2{
+    height: 150px;
+    width: 100px;
+}
+
+.logo{
+    width: 25px;
+}
