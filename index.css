@@ -5,6 +5,7 @@
     background-color: rgb(242, 242, 248);
     grid-row: 5/3;
     border: 1px solid black;
+    align-items: center;
     }
 
 .Footer{
@@ -28,4 +29,5 @@
 
 .logo{
     width: 25px;
+    height: 25px;
 }
