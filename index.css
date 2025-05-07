@@ -6,6 +6,8 @@
     }
 
 .Footer{
+    font-size: 2rem;
+    text-align: center;
     height: 200px;
     width: auto;
     grid-column: 5/3;
