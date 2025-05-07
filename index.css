@@ -1,15 +1,12 @@
 .header{
-    height: 100px;
-    width: auto;
-    grid-column: 5/3;
     background-color: rgb(242, 242, 248);
-    grid-row: 5/3;
     border: 1px solid black;
-    align-items: center;
+    padding: 10px;
+    text-align: left;
     }
 
 .Footer{
-    height: 100px;
+    height: 200px;
     width: auto;
     grid-column: 5/3;
     background-color: rgb(242, 242, 248);
@@ -18,16 +15,35 @@
 }
 
 .Espacio{
-    height: 300px;
-    width: 100px;
+    height: 30rem;
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2,  1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-left: 25rem;
+    
 }
 
 .Espacio2{
-    height: 150px;
-    width: 100px;
+    height: 300px;
+    width: 600px;
+    
 }
 
 .logo{
     width: 25px;
     height: 25px;
 }
+
+
+.Cuadro{
+border: 1px solid black;
+ height: 100px;
+ width: 100px;
+
+
+}
+
+
